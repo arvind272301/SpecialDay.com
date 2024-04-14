@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Birthday For P-23</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: black;
+  }
+  h1 {
+    color: white;
+  }
+  a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: rgb(16, 105, 238);
+  }
+  p {
+    font-size: 1rem;
+    color: white;
+  }
+  .audio-controls {
+    margin-top: 1.5rem;
+  }
+</style>
+</head>
+<body>
+<h1 class="text-Animation">.</h1>
+<div class="audio-controls">
+  <audio id="birthdayAudio" controls autoplay>
+    <source src="Audio.mp3" type="audio/mpeg">
+    
+  </audio>
+</div>
+<div>
+
+  <p>Happy birthday to my favorite person on the planet! Enjoy your day to the fullest, you truly deserve it.</p>
+    <p>For your birthday, I just want to say: I hope you can see how special you are to me. Happy birthday.</p>
+    <a class="linkpage" href="p.html">Click here</a>
+</div>
+<script>
+  // Play audio automatically when the page loads
+  window.onload = function() {
+    var audio = document.getElementById("birthdayAudio");
+    audio.play();
+  };
+</script>
+<script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="j.js"></script>
+</body>
+</html>
